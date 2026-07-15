@@ -1,0 +1,27 @@
+title: CLARIN & DARIAH UK Annual Event
+description: >-
+  Researchers, academics, and museum & library professionals meet in Brighton
+  to shape the infrastructures behind research. Friday 2 October 2026.
+event_date: Friday 2 October 2026
+event_time: 09:00 – 17:30
+event_venue: University of Brighton, Grand Parade
+
+# For a GitHub project site served at username.github.io/REPO,
+# set baseurl to "/REPO". For a user/org site (username.github.io), leave "".
+baseurl: ""
+url: ""
+
+# Hosts shown in the footer
+hosts:
+  - University of Brighton
+  - University of Oxford
+
+# Top navigation (edit labels/links here)
+nav:
+  - { label: Programme, url: /programme/ }
+  - { label: Speakers, url: /speakers/ }
+  - { label: Venue, url: /venue/ }
+  - { label: About, url: /about/ }
+
+exclude:
+  - README.md

@@ -1,0 +1,18 @@
+# About-page content.
+themes:
+  - num: "01"
+    title: Digital infrastructure
+    text: Placeholder — tools, data services and platforms for research.
+  - num: "02"
+    title: Collections & access
+    text: Placeholder — libraries, museums, archives and open access.
+  - num: "03"
+    title: Policy & partnership
+    text: Placeholder — funding, sustainability and cross-sector collaboration.
+
+audiences:
+  - Researchers & academics
+  - Libraries & museums
+  - UKRI & research councils
+  - UK policymakers
+  - European colleagues
