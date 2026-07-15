@@ -1,5 +1,8 @@
 name: Deploy Jekyll to GitHub Pages
 
+url: "https://universityofbrighton.github.io"
+baseurl: "/2026clariahuk"
+
 on:
   push:
     branches: [main]
