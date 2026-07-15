@@ -28,10 +28,27 @@ bundle exec jekyll serve
 ```
 Open http://localhost:4000
 
-## Publish on GitHub Pages
-1. Create a repo and push the **contents of this `site/` folder** to it.
-2. Repo → **Settings → Pages** → Source: *Deploy from a branch* → `main` / root.
-3. **Project site** (`username.github.io/REPO`): set `baseurl: "/REPO"` in
-   `_config.yml`. **User/org site** (`username.github.io`): leave `baseurl: ""`.
+## Publish on GitHub Pages (GitHub Actions — recommended)
 
-Your site builds automatically at the URL shown in Settings → Pages.
+This repo includes `.github/workflows/jekyll.yml` (GitHub's official Jekyll
+workflow), so deployment is automatic.
+
+1. Push the **contents of this `site/` folder to the repo root** (so
+   `_config.yml`, `Gemfile` and `.github/` sit at the top level).
+2. Repo → **Settings → Pages** → Source: **GitHub Actions**.
+3. Push to `main`. The workflow builds and deploys; the live URL appears in
+   the Actions run and in Settings → Pages.
+
+Leave `baseurl: ""` in `_config.yml` — the workflow injects the correct base
+path automatically (`--baseurl`), and all links use `relative_url`, so they
+resolve on both user sites and project sites with no edits.
+
+> Building from the repo root is required — the workflow runs `jekyll build`
+> there. If you'd rather keep the files inside a `site/` subfolder, add
+> `defaults: { run: { working-directory: site } }` to the build job, set
+> `working-directory: site` on the Setup Ruby step, and change the artifact
+> path to `site/_site`.
+
+## Publish without Actions (deploy from a branch)
+Alternatively, Settings → Pages → Source: *Deploy from a branch* → `main` /
+root. In that mode, set `baseurl: "/REPO"` for a project site.
