@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Venue & travel
-subtitle: The event will take place in the Edward Street building at the University of Brighton’s City campus, a short walk from the seafront and the Royal Pavilion.
+subtitle: The event is held at Edward Street Building, University of Brighton  City campus, Brighton, BN2 0JG. The building is a short walk from the seafront and the Royal Pavilion. 
 ---
 
 {% assign venue = site.data.venue %}
@@ -12,11 +12,7 @@ subtitle: The event will take place in the Edward Street building at the Univers
       <div>
         <div class="map">
           {% if venue.image %}
-            {% if venue.image contains '://' %}
-            <img src="{{ venue.image }}" alt="{{ venue.image_alt | default: venue.name }}" />
-            {% else %}
-            <img src="{{ venue.image | relative_url }}" alt="{{ venue.image_alt | default: venue.name }}" />
-            {% endif %}
+          <img src="{{ venue.image | relative_url }}" alt="{{ venue.name }}" />
           {% else %}
           <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#b6ad9b" stroke-width="1.5"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg>
           <span>{{ venue.image_placeholder }}</span>
@@ -32,6 +28,7 @@ subtitle: The event will take place in the Edward Street building at the Univers
         </div>
         <div style="margin-top:14px">
           <a class="map-link" href="{{ venue.map_link_url }}" target="_blank" rel="noopener">Open in Apple Maps</a>
+          <a class="map-link" href="{{ venue.map_link_url_google }}" target="_blank" rel="noopener">Open in Google Maps</a>
         </div>
         <div style="margin-top:20px">
           <div class="serif" style="font-size:22px">{{ venue.name }}</div>

@@ -18,7 +18,10 @@
         <img src="{{ '/assets/pavilion.svg' | relative_url }}" alt="Brighton Royal Pavilion" />
         <span>CLARIN·DARIAH / UK</span>
       </a>
-      <nav class="nav">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav">
         {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label | upcase }}</a>
         {% endfor %}
@@ -54,6 +57,18 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    })();
+  </script>
 
 </body>
 </html>

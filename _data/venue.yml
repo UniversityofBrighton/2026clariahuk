@@ -6,6 +6,7 @@ image: /assets/edward-street.jpg
 image_alt: Edward Street building at the University of Brighton City campus
 map_embed_url: https://www.openstreetmap.org/export/embed.html?bbox=-0.1378%2C50.8200%2C-0.1278%2C50.8244&layer=mapnik&marker=50.8219965%2C-0.1327849
 map_link_url: https://maps.apple.com/place?coordinate=50.82199651011079%2C-0.13278493657708168
+map_link_url_google: https://www.google.com/maps/search/?api=1&query=50.82199651011079%2C-0.13278493657708168
 image_placeholder: MAP / VENUE PHOTO
 
 # Practical info blocks shown beside the map.
