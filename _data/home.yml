@@ -1,0 +1,34 @@
+# Home page content. Everything on the landing page is edited here.
+# `heading_em` is rendered in italic serif inside the headline.
+hero:
+  heading_before: Connecting the
+  heading_em: infrastructures
+  heading_after: of research.
+  intro: >-
+    A day in Brighton where researchers, libraries, museums, policymakers and
+    UKRI colleagues build the shared, sustainable systems humanities
+    scholarship depends on.
+  primary_cta:
+    label: Register to attend
+    url: /register/
+  secondary_cta:
+    label: View programme
+    url: /programme/
+
+# The four-column strip under the hero.
+meta:
+  - key: VENUE
+    value: Univ. of Brighton
+  - key: FORMAT
+    value: One day · in person
+  - key: TIME
+    value: 09:00 – 17:30
+  - key: HOSTED BY
+    value: Brighton & Oxford
+
+intro:
+  heading: About the event
+  text: >-
+    The CLARIN & DARIAH UK Annual Event brings the community together for one
+    day to strengthen the digital and physical infrastructures behind research —
+    from data and tools to collections, access and policy.

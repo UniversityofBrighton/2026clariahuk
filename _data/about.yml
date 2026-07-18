@@ -1,0 +1,38 @@
+# About-page content.
+intro:
+  heading: Why we're meeting
+  text: >-
+    Research runs on shared systems: the data, tools, collections and
+    partnerships that make scholarship possible. This event brings the UK
+    community to Brighton for a day to take stock of those systems and to
+    strengthen them together.
+
+themes_heading: Themes
+themes:
+  - num: "01"
+    title: Digital infrastructure
+    text: Placeholder — tools, data services and platforms for research.
+  - num: "02"
+    title: Collections & access
+    text: Placeholder — libraries, museums, archives and open access.
+  - num: "03"
+    title: Policy & partnership
+    text: Placeholder — funding, sustainability and cross-sector collaboration.
+
+audiences_heading: Who it's for
+audiences:
+  - Researchers & academics
+  - Libraries & museums
+  - UKRI & research councils
+  - UK policymakers
+  - European colleagues
+
+organised_by_label: ORGANISED BY
+partners_label: PARTNERS & SUPPORTERS
+# Add partner logos to assets/partners/ and reference them here, e.g.
+#   - { name: Example Trust, logo: /assets/partners/example.svg, url: https://example.org }
+# Entries without a `logo` render as an empty LOGO slot.
+partners:
+  - name:
+  - name:
+  - name:

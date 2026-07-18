@@ -1,0 +1,57 @@
+---
+layout: default
+title: About the event
+subtitle: Bringing together researchers, academics, and museum & library professionals to shape the digital and physical infrastructures that underpin research.
+---
+
+{% assign about = site.data.about %}
+
+<main>
+  <div class="wrap">
+    <div style="max-width:720px;margin-bottom:56px">
+      <h2 style="font-size:30px;margin-bottom:16px">{{ about.intro.heading }}</h2>
+      <p class="lead">{{ about.intro.text }}</p>
+    </div>
+
+    <h2 style="font-size:26px;margin-bottom:22px">{{ about.themes_heading }}</h2>
+    <div class="themes">
+      {% for t in about.themes %}
+      <div class="theme">
+        <div class="num">{{ t.num }}</div>
+        <div class="title">{{ t.title }}</div>
+        <div class="text">{{ t.text }}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2 style="font-size:26px;margin-bottom:18px">{{ about.audiences_heading }}</h2>
+    <div class="chips">
+      {% for a in about.audiences %}
+      <span class="chip">{{ a }}</span>
+      {% endfor %}
+    </div>
+
+    <div class="org-grid">
+      <div>
+        <div class="k-label">{{ about.organised_by_label }}</div>
+        <div class="serif" style="font-size:20px;line-height:1.5">{% for host in site.hosts %}{{ host }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</div>
+      </div>
+      <div>
+        <div class="k-label">{{ about.partners_label }}</div>
+        <div class="logos">
+          {% for p in about.partners %}
+          <div class="logo-slot">
+            {% if p.logo %}
+              {% if p.url %}<a href="{{ p.url }}">{% endif %}
+              <img src="{{ p.logo | relative_url }}" alt="{{ p.name }}" />
+              {% if p.url %}</a>{% endif %}
+            {% else %}
+              LOGO
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

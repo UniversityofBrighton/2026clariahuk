@@ -1,0 +1,56 @@
+title: CLARIN & DARIAH UK Annual Event
+description: >-
+  Researchers, academics, and museum & library professionals meet in Brighton
+  to shape the infrastructures behind research. Friday 2 October 2026.
+
+# ---------------------------------------------------------------------------
+# Event details. These feed the footer, the hero eyebrow and the home page
+# meta strip — change them here and they update everywhere.
+# ---------------------------------------------------------------------------
+event_date: Friday 2 October 2026
+event_time: 09:00 – 17:30
+event_venue: University of Brighton, Grand Parade
+event_city: Brighton, UK
+event_date_short: 02.10.2026
+
+# ---------------------------------------------------------------------------
+# Project site served at universityofbrighton.github.io/2026clariahuk
+# -> baseurl MUST be "/2026clariahuk" so CSS, images and links resolve.
+# For a user/org site (username.github.io) set this back to "".
+# ---------------------------------------------------------------------------
+baseurl: "/2026clariahuk"
+url: "https://universityofbrighton.github.io"
+
+# Build every page as <name>/index.html so nav links like /speakers/ resolve.
+# Without this, speakers.html is served only at /speakers.html and /speakers/ 404s.
+permalink: pretty
+
+# Hosts shown in the footer and on the About page
+hosts:
+  - University of Brighton
+  - University of Oxford
+
+# Top navigation (edit labels/links here)
+nav:
+  - { label: Programme, url: /programme/ }
+  - { label: Speakers, url: /speakers/ }
+  - { label: Venue, url: /venue/ }
+  - { label: About, url: /about/ }
+
+# Call-to-action button in the header
+register_label: REGISTER
+register_url: /register/
+
+# NOTE: setting `exclude` REPLACES Jekyll's default exclude list, so the
+# defaults (Gemfile, vendor, node_modules...) must be repeated here or they
+# leak into _site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - DARIAHUK

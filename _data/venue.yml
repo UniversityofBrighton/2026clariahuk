@@ -1,0 +1,21 @@
+# Venue & travel page. Replaces the old travel.yml (which only held the
+# `travel` blocks) — everything on the page is edited here.
+name: University of Brighton
+address: Grand Parade, Brighton, BN2 0JY · placeholder address
+
+# Optional map or venue photo. Drop a file in assets/ and set e.g.
+#   image: /assets/venue.jpg
+# Leave blank to show the placeholder box.
+image:
+image_placeholder: MAP / VENUE PHOTO
+
+# Practical info blocks shown beside the map.
+travel:
+  - label: BY TRAIN
+    text: Placeholder — Brighton station is served by direct trains from London (approx. 1 hour) and the south coast.
+  - label: BY AIR
+    text: Placeholder — nearest airports are London Gatwick (approx. 30 min by train) and Heathrow.
+  - label: ACCESSIBILITY
+    text: Placeholder — step-free access and accessibility provisions to be confirmed here.
+  - label: ACCOMMODATION
+    text: Placeholder — suggested hotels and booking guidance to follow.

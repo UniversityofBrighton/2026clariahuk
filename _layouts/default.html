@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title and page.home != true %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/pavilion.svg' | relative_url }}" alt="Brighton Royal Pavilion" />
+        <span>CLARIN·DARIAH / UK</span>
+      </a>
+      <nav class="nav">
+        {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label | upcase }}</a>
+        {% endfor %}
+        <a class="btn" href="{{ site.register_url | relative_url }}">{{ site.register_label }}</a>
+      </nav>
+    </div>
+  </header>
+
+  {% unless page.home %}
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">{{ site.event_city | upcase }} &nbsp;//&nbsp; {{ site.event_date_short }}</div>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+    </div>
+  </section>
+  {% endunless %}
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div style="max-width:320px">
+        <div class="title">{{ site.title }}</div>
+        <div class="small">{{ site.event_date }} · {{ site.event_venue }} · {{ site.event_time }}</div>
+      </div>
+      <div class="col">
+        <div class="h">HOSTED BY</div>
+        {% for host in site.hosts %}<div>{{ host }}</div>{% endfor %}
+      </div>
+      <div class="links">
+        {% for item in site.nav %}<a href="{{ item.url | relative_url }}">{{ item.label }}</a>{% endfor %}
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

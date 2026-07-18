@@ -1,0 +1,24 @@
+---
+layout: default
+title: Register
+subtitle: Registration details will be published here.
+---
+
+{% assign reg = site.data.register %}
+
+<main>
+  <div class="wrap">
+    <div style="max-width:720px">
+      <h2 style="font-size:30px;margin-bottom:16px">{{ reg.heading }}</h2>
+      <p class="lead">{{ reg.text }}</p>
+
+      {% if reg.embed %}
+      <div style="margin-top:24px">{{ reg.embed }}</div>
+      {% elsif reg.cta.url %}
+      <p style="margin-top:24px"><a class="btn btn-lg" href="{{ reg.cta.url }}">{{ reg.cta.label }}</a></p>
+      {% else %}
+      <p style="margin-top:24px"><span class="btn btn-lg" aria-disabled="true" style="opacity:.55;cursor:default">{{ reg.cta.label }}</span></p>
+      {% endif %}
+    </div>
+  </div>
+</main>

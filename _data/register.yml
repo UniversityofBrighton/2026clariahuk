@@ -1,0 +1,15 @@
+# Register page.
+heading: Registration
+text: >-
+  Registration is not yet open. Details of how to book a place will be
+  published on this page.
+
+# When booking opens, set `url` to the Eventbrite / Microsoft Forms link and
+# update `label`. While `url` is blank the button renders disabled.
+cta:
+  label: Registration link — to be added
+  url:
+
+# Alternatively paste an embed (Eventbrite / MS Forms iframe) here. If set,
+# it renders in place of the button above.
+embed:

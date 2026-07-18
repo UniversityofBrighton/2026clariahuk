@@ -1,0 +1,29 @@
+# Programme page. Edit times, titles and notes freely — `slots` renders in order.
+heading: Provisional schedule
+tag: TO BE CONFIRMED
+
+slots:
+  - time: "09:00"
+    title: Registration & coffee
+    note: Placeholder — arrivals and networking
+  - time: "09:30"
+    title: Welcome & opening remarks
+    note: Placeholder — hosts and organisers
+  - time: "10:00"
+    title: Keynote
+    note: Placeholder — speaker to be confirmed
+  - time: "11:15"
+    title: "Panel: digital research infrastructure"
+    note: Placeholder — session description
+  - time: "13:00"
+    title: Lunch & posters
+    note: Placeholder — break
+  - time: "14:00"
+    title: Parallel sessions
+    note: Placeholder — tracks to be confirmed
+  - time: "16:00"
+    title: Closing plenary
+    note: Placeholder — wrap-up and next steps
+  - time: "17:30"
+    title: Close
+    note: Placeholder — end of day
