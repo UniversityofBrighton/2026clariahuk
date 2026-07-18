@@ -85,7 +85,9 @@ main{padding:64px 0 40px}
 .venue-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
 .map{aspect-ratio:4/3;border-radius:8px;background:var(--sand);border:1px dashed rgba(23,40,46,.28);
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--faint);
-  font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em}
+  font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;overflow:hidden}
+.map > img,.map > iframe{width:100%;height:100%;border:0;object-fit:cover}
+.map-link{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;color:var(--teal)}
 .travel{display:flex;flex-direction:column;gap:22px}
 .travel .block{border-top:1px solid rgba(23,40,46,.16);padding-top:18px}
 .travel .k{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--teal);margin-bottom:8px}

@@ -1,21 +1,20 @@
 # Venue & travel page. Replaces the old travel.yml (which only held the
 # `travel` blocks) — everything on the page is edited here.
 name: University of Brighton
-address: Grand Parade, Brighton, BN2 0JY · placeholder address
-
-# Optional map or venue photo. Drop a file in assets/ and set e.g.
-#   image: /assets/venue.jpg
-# Leave blank to show the placeholder box.
-image:
+address: Edward Street Building, City campus, Brighton, BN2 0JG, United Kingdom
+image: /assets/edward-street.jpg
+image_alt: Edward Street building at the University of Brighton City campus
+map_embed_url: https://www.openstreetmap.org/export/embed.html?bbox=-0.1378%2C50.8200%2C-0.1278%2C50.8244&layer=mapnik&marker=50.8219965%2C-0.1327849
+map_link_url: https://maps.apple.com/place?coordinate=50.82199651011079%2C-0.13278493657708168
 image_placeholder: MAP / VENUE PHOTO
 
 # Practical info blocks shown beside the map.
 travel:
   - label: BY TRAIN
-    text: Placeholder — Brighton station is served by direct trains from London (approx. 1 hour) and the south coast.
+    text: Brighton station is a short walk from the campus, and direct trains connect the city with London and many south-coast towns.
   - label: BY AIR
-    text: Placeholder — nearest airports are London Gatwick (approx. 30 min by train) and Heathrow.
-  - label: ACCESSIBILITY
-    text: Placeholder — step-free access and accessibility provisions to be confirmed here.
+    text: Gatwick is the most convenient airport for Brighton, with a direct rail link into the city; Heathrow is also reachable with a longer rail or coach journey.
+  - label: BY BUS OR BIKE
+    text: The campus sits in the city centre and is served by frequent buses, while Brighton’s cycle network and Beryl bikes make it easy to get around.
   - label: ACCOMMODATION
-    text: Placeholder — suggested hotels and booking guidance to follow.
+    text: Brighton is busy during the conference season, so it is wise to book accommodation early. The campus is close to the city centre, the seafront and many hotels.
