@@ -9,6 +9,7 @@ subtitle: The event is held at Edward Street Building, University of Brighton  C
 <main>
   <div class="wrap">
     <div class="venue-grid">
+      
       <div>
         <div class="map">
           {% if venue.image %}
@@ -27,19 +28,20 @@ subtitle: The event is held at Edward Street Building, University of Brighton  C
             allowfullscreen></iframe>
         </div>
         <div style="margin-top:14px">
-          <a class="map-link" href="{{ venue.map_link_url }}" target="_blank" rel="noopener">Open in Apple Maps</a>
+          <a class="map-link" href="{{ venue.map_link_url }}" target="_blank" rel="noopener">Open in Apple Maps</a><br/>
           <a class="map-link" href="{{ venue.map_link_url_google }}" target="_blank" rel="noopener">Open in Google Maps</a>
         </div>
+      </div>
+      <div class="travel">
         <div style="margin-top:20px">
           <div class="serif" style="font-size:22px">{{ venue.name }}</div>
           <div style="font-size:15px;color:var(--muted);margin-top:4px">{{ venue.address }}</div>
         </div>
-      </div>
-      <div class="travel">
+
         {% for b in venue.travel %}
         <div class="block">
           <div class="k">{{ b.label }}</div>
-          <div class="t">{{ b.text }}</div>
+          <div class="t">{{ b.text | markdownify | remove: '<p>' | remove: '</p>' }}</div>
         </div>
         {% endfor %}
       </div>

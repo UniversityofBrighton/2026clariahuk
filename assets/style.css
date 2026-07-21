@@ -97,6 +97,7 @@ main{padding:64px 0 40px}
 .travel .block{border-top:1px solid rgba(23,40,46,.16);padding-top:18px}
 .travel .k{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--teal);margin-bottom:8px}
 .travel .t{font-size:15px;line-height:1.55;color:var(--slate)}
+.travel .t a{color:var(--teal);text-decoration:underline;text-underline-offset:2px}
 
 /* about */
 .themes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:60px}

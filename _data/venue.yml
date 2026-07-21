@@ -1,8 +1,8 @@
 # Venue & travel page. Replaces the old travel.yml (which only held the
 # `travel` blocks) — everything on the page is edited here.
-name: University of Brighton
+name: University of Brighton, Brighton, UK
 address: Edward Street Building, City campus, Brighton, BN2 0JG, United Kingdom
-image: /assets/edward-street.jpg
+image: /assets/7320-Aerial-view-of-Brighton-seafront-with-Victorian-buildings-along-Marine-Drive-and-Madeira-Drive-with-the-Volks-Electric-Railway-in-the-foreground.jpeg
 image_alt: Edward Street building at the University of Brighton City campus
 map_embed_url: https://www.openstreetmap.org/export/embed.html?bbox=-0.1378%2C50.8200%2C-0.1278%2C50.8244&layer=mapnik&marker=50.8219965%2C-0.1327849
 map_link_url: https://maps.apple.com/place?coordinate=50.82199651011079%2C-0.13278493657708168
@@ -16,6 +16,6 @@ travel:
   - label: BY AIR
     text: Gatwick is the most convenient airport for Brighton, with a direct rail link into the city; Heathrow is also reachable with a longer rail or coach journey.
   - label: BY BUS OR BIKE
-    text: The campus sits in the city centre and is served by frequent buses, while Brighton’s cycle network and Beryl bikes make it easy to get around.
+    text: "The campus sits in the city centre and is served by frequent buses, while Brighton’s cycle network and Beryl bikes make it easy to get around. [Brighton & Hove Buses](https://www.buses.co.uk/) and [Metrobus](https://www.metrobus.co.uk/). Beryl bikes: [Beryl](https://beryl.cc/)"
   - label: ACCOMMODATION
     text: Brighton is busy during the conference season, so it is wise to book accommodation early. The campus is close to the city centre, the seafront and many hotels.
