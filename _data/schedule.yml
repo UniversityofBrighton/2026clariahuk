@@ -1,29 +1,52 @@
 # Programme page. Edit times, titles and notes freely — `slots` renders in order.
-heading: Provisional schedule
+heading: Schedule, Friday 2 October 2026,
 tag: TO BE CONFIRMED
 
 slots:
-  - time: "09:00"
-    title: Registration & coffee
-    note: Placeholder — arrivals and networking
   - time: "09:30"
-    title: Welcome & opening remarks
-    note: Placeholder — hosts and organisers
+    title: Registration and networking
+    note: Coffee/Tea and pastries
+    room: Lobby 1st floor, Edward Street Building
   - time: "10:00"
-    title: Keynote
-    note: Placeholder — speaker to be confirmed
-  - time: "11:15"
-    title: "Panel: digital research infrastructure"
-    note: Placeholder — session description
+    title: Welcome and opening remarks
+    note: Martin Wynne (University of Oxford) & Karina Rodriguez Echavarria (University of Brighton)
+    room: Room 105, Edward Street Building
+  - time: "10:15"
+    title: "Research Infrastructures for Common Languages"
+    note: Various speakers — placeholder for now
+    room: Room 105, Edward Street Building
+  - time: "11:00"
+    title: "Research Infrastructures for Arts and Humanities: Tools, Data, and Services"
+    note: Dr. Eamonn Bell (University of Durham); Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London)
+    room: Room 105, Edward Street Building
+  - time: "11:45"
+    note: Coffee/Tea break
+    room: Lobby 1st floor, Edward Street Building
+  - time: "12:00"
+    title: "Keynote: CLARIAH: A View from Other Countries"
+    note: German Rigau i Claramunt (University of the Basque Country, Spain)
+    room: 105, Edward Street Building
   - time: "13:00"
-    title: Lunch & posters
-    note: Placeholder — break
+    title: Lunch 
+    note: Lunch provided; poster session in the lobby
+    room: Lobby 1st floor, Edward Street Building
   - time: "14:00"
-    title: Parallel sessions
-    note: Placeholder — tracks to be confirmed
-  - time: "16:00"
-    title: Closing plenary
-    note: Placeholder — wrap-up and next steps
-  - time: "17:30"
-    title: Close
-    note: Placeholder — end of day
+    title: PhD student lightning talks
+    note: Various speakers
+    room: 105, Edward Street Building
+  - time: "14:45"
+    title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
+    note: Placeholder — speaker to be confirmed
+    room: 105, Edward Street Building
+  - time: "15:45"
+    title: Coffee/tea & Project showcase posters
+    note: Various speakers and projects
+    room: Lobby 1st floor, Edward Street Building
+  - time: "16:15"
+    title: "Plenary discussion: Challenges and Opportunities to share Digital Research Infrastructures in the UK"
+    note: TBC
+    room: 105, Edward Street Building
+  - time: "17:00"
+    title: Close & Reception 
+    note: Drinks & networking
+    room: Lobby 1st floor, Edward Street Building

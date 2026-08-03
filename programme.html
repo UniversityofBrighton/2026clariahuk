@@ -18,6 +18,7 @@ subtitle: A single day of talks, panels and lightning sessions on the infrastruc
         <div>
           <div class="title">{{ slot.title }}</div>
           <div class="desc">{{ slot.note }}</div>
+          {% if slot.room %}<div class="room">{{ slot.room }}</div>{% endif %}
         </div>
       </div>
       {% endfor %}

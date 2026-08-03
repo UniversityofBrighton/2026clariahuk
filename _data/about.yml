@@ -2,37 +2,43 @@
 intro:
   heading: Why we're meeting
   text: >-
-    Research runs on shared systems: the data, tools, collections and
-    partnerships that make scholarship possible. This event brings the UK
-    community to Brighton for a day to take stock of those systems and to
-    strengthen them together.
+    This event brings the UK and European community 
+    interested and involved in research infrastructures
+    within the arts and humanities together for
+    strengthening collaboration, sharing knowledge and
+    exploring new opportunities. The event is organised
+    by the CLARIN UK consortium, the DISKAH Network, and is colocated 
+    with . It is open to all researchers, academics, GLAM practitioners and
+    professionals as well as creative industries interested in shaping the infrastructures
+    behind research. The event will take place on Friday 2 October 2026 at the University of Brighton, UK.
 
 themes_heading: Themes
 themes:
   - num: "01"
-    title: Digital infrastructure
-    text: Placeholder — tools, data services and platforms for research.
+    title: Research Infrastructure
+    text: Communities, tools, compute, data and services for research in the arts and humanities, and how they can be shared across disciplines and countries.
   - num: "02"
-    title: Collections & access
-    text: Placeholder — libraries, museums, archives and open access.
+    title: Collections as Data
+    text: Connecting data across libraries, museums, archives wtih infrastructures and services for research using FAIR and CARE principles.
   - num: "03"
     title: Policy & partnership
-    text: Placeholder — funding, sustainability and cross-sector collaboration.
+    text: Funding, sustainability and cross-sector collaboration on common challenges.
+  - num: "04"
+    title: Human Capital & Skils 
+    text: Training, skills and career development for researchers, GLAM professionals and infrastructure developers.
 
 audiences_heading: Who it's for
 audiences:
   - Researchers & academics
-  - Libraries & museums
-  - UKRI & research councils
+  - GLAM researchers & professionals
   - UK policymakers
-  - European colleagues
+  - UKRI & research councils
 
 organised_by_label: ORGANISED BY
-partners_label: PARTNERS & SUPPORTERS
+partners_label: 
 # Add partner logos to assets/partners/ and reference them here, e.g.
 #   - { name: Example Trust, logo: /assets/partners/example.svg, url: https://example.org }
 # Entries without a `logo` render as an empty LOGO slot.
 partners:
-  - name:
-  - name:
-  - name:
+  - { name: University of Brighton, logo: /assets/partners/university-of-brighton.png, url: https://www.brighton.ac.uk } 
+  - {name: University of Oxford, logo: /assets/partners/University_of_Oxford.svg, url: https://www.ox.ac.uk } 

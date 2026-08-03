@@ -77,6 +77,7 @@ main{padding:64px 0 40px}
 .slot .time{font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--teal);padding-top:3px}
 .slot .title{font-family:'Newsreader',serif;font-size:21px;margin-bottom:5px}
 .slot .desc{font-size:14px;color:var(--muted)}
+.slot .room{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--teal);margin-top:6px}
 
 /* speakers */
 .speakers{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
@@ -100,7 +101,7 @@ main{padding:64px 0 40px}
 .travel .t a{color:var(--teal);text-decoration:underline;text-underline-offset:2px}
 
 /* about */
-.themes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:60px}
+.themes{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-bottom:60px}
 .theme{border-top:2px solid var(--teal);padding-top:18px}
 .theme .num{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--coral);margin-bottom:10px}
 .theme .title{font-family:'Newsreader',serif;font-size:22px;margin-bottom:8px}
