@@ -31,20 +31,20 @@ slots:
     note: Lunch provided; poster session in the lobby
     room: Lobby 1st floor, Edward Street Building
   - time: "14:00"
-    title: European Research Infrastructures Lightning Talks
+    title: "Panel: Looking to Broader UK and European Research Infrastructures"
     note: Various speakers
     room: 105, Edward Street Building
   - time: "15:00"
-    title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
-    note: Placeholder — speaker to be confirmed
+    title: "Plenary discussion: Collaboration across disciplines and countries"
+    note: TBC
     room: 105, Edward Street Building
-  - time: "15:45"
+  - time: "15:30"
     title: Coffee/tea & Project showcase posters
     note: Various speakers and projects
     room: Lobby 1st floor, Edward Street Building
-  - time: "16:15"
-    title: "Plenary discussion: Challenges and Opportunities to share Digital Research Infrastructures in the UK"
-    note: TBC
+  - time: "16:00"
+    title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
+    note: Placeholder — speaker to be confirmed
     room: 105, Edward Street Building
   - time: "17:00"
     title: Close & Reception 
