@@ -15,14 +15,14 @@ slots:
     title: "Research Infrastructure of Language Resources"
     note: Various speakers — placeholder for now
     room: Room 105, Edward Street Building
-  - time: "11:00"
+  - time: "11:15"
+    note: Coffee/Tea break
+    room: Lobby 1st floor, Edward Street Building
+  - time: "11:30"
     title: "Research Infrastructures for Arts and Humanities"
     note: Dr. Eamonn Bell (University of Durham); Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London)
     room: Room 105, Edward Street Building
-  - time: "11:45"
-    note: Coffee/Tea break
-    room: Lobby 1st floor, Edward Street Building
-  - time: "12:00"
+  - time: "12:30"
     title: "Keynote: CLARIAH: A View from Other Countries"
     note: German Rigau i Claramunt (University of the Basque Country, Spain)
     room: 105, Edward Street Building
@@ -31,10 +31,10 @@ slots:
     note: Lunch provided; poster session in the lobby
     room: Lobby 1st floor, Edward Street Building
   - time: "14:00"
-    title: European Research Infrastructures Lightning talks
+    title: European Research Infrastructures Lightning Talks
     note: Various speakers
     room: 105, Edward Street Building
-  - time: "14:45"
+  - time: "15:00"
     title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
     note: Placeholder — speaker to be confirmed
     room: 105, Edward Street Building
