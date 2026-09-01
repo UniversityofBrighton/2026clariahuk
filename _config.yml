@@ -39,7 +39,7 @@ nav:
 
 # Call-to-action button in the header
 register_label: REGISTER
-register_url: https://clarin-dariah-uk-2026.eventbrite.co.uk/
+register_url: /register/
 
 # NOTE: setting `exclude` REPLACES Jekyll's default exclude list, so the
 # defaults (Gemfile, vendor, node_modules...) must be repeated here or they
