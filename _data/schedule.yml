@@ -13,7 +13,7 @@ slots:
     room: Room 105, Edward Street Building
   - time: "10:15"
     title: "Research Infrastructure of Language Resources"
-    note: Various speakers — placeholder for now
+    note: Megan Bushnell (University of Oxford); Paul Rayson (Lancaster University); Martin Wynne (University of Oxford); William Lamb (University of Edinburgh)  
     room: Room 105, Edward Street Building
   - time: "11:15"
     note: Coffee/Tea break
@@ -36,15 +36,15 @@ slots:
     room: 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
-    note: Various speakers
+    note: Simone Gigliotti (Royal Holloway, University of London); More speaker TBC
     room: 105, Edward Street Building
   - time: "15:30"
     title: Coffee/tea & Project showcase posters
-    note: Various speakers and projects
+    note: Sally Chambers (The British Library); More speaker TBC
     room: Lobby 1st floor, Edward Street Building
   - time: "16:00"
     title: "Showcases: Communities and Collaborations across disciplines"
-    note: TBC
+    note: Various Presenters — more details to be confirmed
     room: 105, Edward Street Building
   - time: "17:00"
     title: Close & Reception 
