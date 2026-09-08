@@ -5,27 +5,34 @@ heading: Confirmed line-up
 tag: MORE TO BE ANNOUNCED
 
 list:
-  - name: Dr German Rigau i Claramunt
-    role: Associate Professor and National Coordinator for CLARIAH, Spain · University of the Basque Country
-    photo: /assets/speakers/german-rigau.jpg
-  - name: Dr Eamonn Bell
-    role: Associate Professor · University of Durham
-    photo: /assets/speakers/eamonn-bell.png
-  - name: Joan Murphy
-    role: National Manager for DARIAH Ireland · Trinity College Dublin
-    photo: /assets/speakers/joan-murphy.png
   - name: Dr Barbara McGillivray
     role: Senior Lecturer · King's College London
     photo: /assets/speakers/barbara-mcgillivray.png
-  - name: Speaker name
-    role: Role · UKRI DRI
-    photo:
-  - name: Speaker name
-    role: Role · Institution
-    photo:
-  - name: Speaker name
-    role: Role · Institution
-    photo:
-  - name: Speaker name
-    role: Role · Institution
-    photo:
+  - name: Dr Eamonn Bell
+    role: Associate Professor · University of Durham
+    photo: /assets/speakers/eamonn-bell.png
+  - name: Dr German Rigau i Claramunt
+    role: Associate Professor and National Coordinator for CLARIAH, Spain · University of the Basque Country
+    photo: /assets/speakers/german-rigau.jpg
+  - name: Joan Murphy
+    role: National Manager for DARIAH Ireland · Trinity College Dublin
+    photo: /assets/speakers/joan-murphy.png
+  - name: Dr Martin Wynne
+    role: Senior Researcher in Corpus Linguistics
+    photo: /assets/speakers/martin-wynne.jpg
+  - name: Dr Megan Bushnell
+    role: Researcher in Linguistic Data · University of Oxford
+    photo: /assets/speakers/megan-bushnell.jpg
+  - name: Prof Paul Rayson
+    role: Professor of Natural Language Processing · Lancaster University
+    photo: /assets/speakers/paul-rayson.jpg
+  - name: Prof Simone Gigliotti 
+    role: Professor · Royal Holloway, University of London
+    photo: /assets/speakers/simone-gigliotti.png
+  - name: Sally Chambers
+    role: Head of Research Infrastructure Services · The British Library
+    photo: /assets/speakers/sally-chambers.png
+  - name: Prof William Lamb
+    role: Professor in Gaelic Ethnology and Linguistics · University of Edinburgh
+    photo: /assets/speakers/will-lamb.jpg
+  
