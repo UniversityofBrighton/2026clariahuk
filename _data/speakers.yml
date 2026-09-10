@@ -26,6 +26,9 @@ list:
   - name: Prof Paul Rayson
     role: Professor of Natural Language Processing · Lancaster University
     photo: /assets/speakers/paul-rayson.jpg
+  - name: Prof Karina Rodriguez Echavarria
+    role: Professor of Visual Computing · University of Brighton
+    photo: /assets/speakers/karina.png
   - name: Prof Simone Gigliotti 
     role: Professor · Royal Holloway, University of London
     photo: /assets/speakers/simone-gigliotti.png
