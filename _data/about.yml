@@ -7,8 +7,8 @@ intro:
     within the arts and humanities together for
     strengthening collaboration, sharing knowledge and
     exploring new opportunities. The event is organised
-    by the CLARIN UK consortium, the DISKAH Network, and is colocated 
-    with . It is open to all researchers, academics, GLAM practitioners and
+    by the CLARIN UK consortium, the DISKAH Network. 
+    It is open to all researchers, academics, GLAM practitioners and
     professionals as well as creative industries interested in shaping the infrastructures
     behind research. The event will take place on Friday 2 October 2026 at the University of Brighton, UK.
 
@@ -40,5 +40,6 @@ partners_label:
 #   - { name: Example Trust, logo: /assets/partners/example.svg, url: https://example.org }
 # Entries without a `logo` render as an empty LOGO slot.
 partners:
-  - { name: University of Brighton, logo: /assets/partners/university-of-brighton.png, url: https://www.brighton.ac.uk } 
+  - {name: University of Brighton, logo: /assets/partners/university-of-brighton.png, url: https://www.brighton.ac.uk } 
   - {name: University of Oxford, logo: /assets/partners/University_of_Oxford.svg, url: https://www.ox.ac.uk } 
+  - {name: DISKAGH Network, logo: /assets/partners/diskah.png, url: https://diskah.org}
