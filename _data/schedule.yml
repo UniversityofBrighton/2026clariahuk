@@ -32,7 +32,7 @@ slots:
     room: Lobby 1st floor, Edward Street Building
   - time: "14:00"
     title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
-    note: Placeholder — speaker to be confirmed
+    note: BEn Yarnall (UKRI)
     room: 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
@@ -40,11 +40,11 @@ slots:
     room: 105, Edward Street Building
   - time: "15:30"
     title: Coffee/tea & Project showcase posters
-    note: Sally Chambers (The British Library); More speaker TBC
+    note: "Chair: Sally Chambers (The British Library); More speaker TBC"
     room: Lobby 1st floor, Edward Street Building
   - time: "16:00"
     title: "Showcases: Communities and Collaborations across disciplines"
-    note: Various Presenters — more details to be confirmed
+    note: "Chair: Karina Rodriguez Echavarria (University of Brighton); Various Presenters — more details to be confirmed"
     room: 105, Edward Street Building
   - time: "17:00"
     title: Close & Reception 
