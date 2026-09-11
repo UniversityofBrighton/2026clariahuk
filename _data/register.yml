@@ -7,7 +7,7 @@ text: >-
 # update `label`. While `url` is blank the button renders disabled.
 cta:
   label: Registration link
-  url: https://clarin-dariah-uk-2026.eventbrite.co.uk/
+  url: https://www.eventbrite.co.uk/e/connecting-the-infrastructures-of-research-in-arts-and-humanities-tickets-1997921542115
 
 # Alternatively paste an embed (Eventbrite / MS Forms iframe) here. If set,
 # it renders in place of the button above.
