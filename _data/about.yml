@@ -34,6 +34,17 @@ audiences:
   - UK policymakers
   - UKRI & research councils
 
+organisers_heading: Organising team
+organisers_intro: 
+# Add or remove people freely. `affiliation` and `role` are optional.
+organisers:
+  - name: Karina Rodriguez Echavarria
+    affiliation: University of Brighton
+  - name: Myrsini Samaroudi
+    affiliation: University of Brighton
+  - name: Martin Wynne
+    affiliation: University of Oxford
+
 organised_by_label: ORGANISED BY
 partners_label: 
 # Add partner logos to assets/partners/ and reference them here, e.g.

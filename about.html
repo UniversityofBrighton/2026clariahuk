@@ -31,6 +31,20 @@ subtitle: Bringing together researchers, academics, and museum & library profess
       {% endfor %}
     </div>
 
+    {% if about.organisers %}
+    <h2 style="font-size:26px;margin-bottom:8px">{{ about.organisers_heading }}</h2>
+    {% if about.organisers_intro %}<p class="lead" style="margin-bottom:22px">{{ about.organisers_intro }}</p>{% endif %}
+    <div class="people">
+      {% for person in about.organisers %}
+      <div class="person">
+        <div class="name">{{ person.name }}</div>
+        {% if person.role %}<div class="role">{{ person.role }}</div>{% endif %}
+        {% if person.affiliation %}<div class="aff">{{ person.affiliation }}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
     <div class="org-grid">
       <div>
         <div class="k-label">{{ about.organised_by_label }}</div>

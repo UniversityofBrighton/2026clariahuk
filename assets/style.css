@@ -108,11 +108,17 @@ main{padding:64px 0 40px}
 .theme .text{font-size:14px;line-height:1.6;color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:13px;margin-bottom:60px}
 .chip{border:1px solid rgba(23,40,46,.22);border-radius:999px;padding:7px 16px}
+.people{display:grid;grid-template-columns:repeat(3,1fr);gap:20px 24px;margin-bottom:60px}
+.person{border-top:1px solid rgba(23,40,46,.16);padding-top:14px}
+.person .name{font-family:'Newsreader',serif;font-size:19px}
+.person .role{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.04em;color:var(--coral);margin-top:4px}
+.person .aff{font-size:14px;color:var(--muted);margin-top:3px}
 .org-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;border-top:1px solid rgba(23,40,46,.16);padding-top:36px}
 .k-label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--teal);margin-bottom:14px}
 .logos{display:flex;flex-wrap:wrap;gap:14px}
-.logo-slot{width:150px;height:64px;border:1px dashed rgba(23,40,46,.28);border-radius:6px;
+.logo-slot{width:150px;height:64px;border:1px dashed rgba(23,40,46,.28);border-radius:6px;padding:10px;
   display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--faint)}
+.logo-slot img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 
 /* footer */
 .site-footer{background:var(--ink);color:#c9d4d3;margin-top:60px}
@@ -131,6 +137,7 @@ main{padding:64px 0 40px}
   .hero h1,.home-hero h1{font-size:44px}
   .speakers{grid-template-columns:repeat(2,1fr)}
   .venue-grid,.themes,.org-grid,.meta{grid-template-columns:1fr}
+  .people{grid-template-columns:repeat(2,1fr)}
   .meta div{border-right:0;border-bottom:1px solid rgba(234,243,242,.14)}
 }
 @media(max-width:820px){
