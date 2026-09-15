@@ -12,7 +12,7 @@ slots:
     note: Martin Wynne (University of Oxford) & Karina Rodriguez Echavarria (University of Brighton)
     room: Room 105, Edward Street Building
   - time: "10:15"
-    title: "Research Infrastructure of Language Resources"
+    title: "Digital Research Infrastructure for Language Resources"
     note: Megan Bushnell (University of Oxford); Paul Rayson (Lancaster University); Martin Wynne (University of Oxford); William Lamb (University of Edinburgh)  
     room: Room 105, Edward Street Building
   - time: "11:15"
@@ -32,7 +32,7 @@ slots:
     room: Lobby 1st floor, Edward Street Building
   - time: "14:00"
     title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
-    note: BEn Yarnall (UKRI)
+    note: Ben Yarnall (UKRI)
     room: 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
