@@ -5,8 +5,8 @@ tag: TO BE CONFIRMED
 slots:
   - time: "09:30"
     title: Registration and networking
-    note: Coffee/Tea and pastries
-    room: Lobby 1st floor, Edward Street Building
+    note: Coffee/Tea and pastries; set up for poster session
+    room: Room 103/104, Edward Street Building
   - time: "10:00"
     title: Welcome and opening remarks
     note: Martin Wynne (University of Oxford) & Karina Rodriguez Echavarria (University of Brighton)
@@ -16,8 +16,9 @@ slots:
     note: Megan Bushnell (University of Oxford); Paul Rayson (Lancaster University); Martin Wynne (University of Oxford); William Lamb (University of Edinburgh)  
     room: Room 105, Edward Street Building
   - time: "11:15"
-    note: Coffee/Tea break
-    room: Lobby 1st floor, Edward Street Building
+    title: Coffee/tea
+    note: Posters available to view; networking
+    room: Room 103/104, Edward Street Building
   - time: "11:30"
     title: "Digital Research Infrastructures for Arts and Humanities"
     note: Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London); Prof Karina Rodriguez Echavarria (University of Brighton)
@@ -25,28 +26,28 @@ slots:
   - time: "12:30"
     title: "Keynote: CLARIAH: A View from Other Countries"
     note: German Rigau i Claramunt (University of the Basque Country, Spain)
-    room: 105, Edward Street Building
+    room: Room 105, Edward Street Building
   - time: "13:00"
     title: Lunch 
-    note: Lunch provided; poster session in the lobby
-    room: Lobby 1st floor, Edward Street Building
+    note: Lunch provided; Posters available to view; networking
+    room: Room 103/104, Edward Street Building
   - time: "14:00"
     title: "Keynote: UKRI DRI Strategy for Digital Research Infrastructure"
     note: Ben Yarnall (UKRI)
-    room: 105, Edward Street Building
+    room: Room 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
     note: Simone Gigliotti (Royal Holloway, University of London); Arran Rees (Museum Data Service | Collections Trust); Sally Chambers (The British Library)
-    room: 105, Edward Street Building
+    room: Room 105, Edward Street Building
   - time: "15:30"
-    title: Coffee/tea & Project showcase posters
-    note: "Chair: Sally Chambers (The British Library); More speaker TBC"
-    room: Lobby 1st floor, Edward Street Building
+    title: Coffee/tea 
+    note: Posters available to view; networking
+    room: Room 103/104, Edward Street Building
   - time: "16:00"
-    title: "Showcases: Communities and Collaborations across disciplines"
-    note: "Chair: Karina Rodriguez Echavarria (University of Brighton); Various Presenters — more details to be confirmed"
-    room: 105, Edward Street Building
+    title: "Project Poster and Showcases"
+    note: "Chair: Sally Chambers (The British Library); Various presentations"
+    room: Room 105, Edward Street Building
   - time: "17:00"
     title: Close & Reception 
     note: Networking
-    room: Lobby 1st floor, Edward Street Building
+    room: Room 103/104, Edward Street Building
