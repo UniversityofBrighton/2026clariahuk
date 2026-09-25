@@ -20,7 +20,7 @@ slots:
     room: Lobby 1st floor, Edward Street Building
   - time: "11:30"
     title: "Digital Research Infrastructures for Arts and Humanities"
-    note: Dr. Eamonn Bell (University of Durham); Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London)
+    note: Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London); Prof Karina Rodriguez Echavarria (University of Brighton); Dr. Arran Rees (Museum Data Service | Collections Trust)
     room: Room 105, Edward Street Building
   - time: "12:30"
     title: "Keynote: CLARIAH: A View from Other Countries"
@@ -36,7 +36,7 @@ slots:
     room: 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
-    note: Simone Gigliotti (Royal Holloway, University of London); More speaker TBC
+    note: Simone Gigliotti (Royal Holloway, University of London); Arran Rees (Museum Data Service | Collections Trust); Sally Chambers (The British Library); Karina Rodriguez Echavarria (University of Brighton)
     room: 105, Edward Street Building
   - time: "15:30"
     title: Coffee/tea & Project showcase posters
