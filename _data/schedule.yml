@@ -37,7 +37,7 @@ slots:
     room: Room 105, Edward Street Building
   - time: "14:30"
     title: "Panel: Looking to Broader UK and European Research Infrastructures"
-    note: Simone Gigliotti (Royal Holloway, University of London); Arran Rees (Museum Data Service | Collections Trust); Sally Chambers (The British Library)
+    note: Sally Chambers (The British Library)Simone Gigliotti (Royal Holloway, University of London); Arran Rees (Museum Data Service | Collections Trust) 
     room: Room 105, Edward Street Building
   - time: "15:30"
     title: Coffee/tea 
@@ -45,9 +45,9 @@ slots:
     room: Room 103/104, Edward Street Building
   - time: "16:00"
     title: "Project Poster and Showcases"
-    note: "Chair: Sally Chambers (The British Library); Various presentations"
+    note: "Short poster and showcase presentations"
     room: Room 105, Edward Street Building
-  - time: "17:00"
+  - time: "17:00 - 18:00"
     title: Close & Reception 
     note: Networking
     room: Room 103/104, Edward Street Building
