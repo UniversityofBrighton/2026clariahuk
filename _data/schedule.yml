@@ -13,7 +13,7 @@ slots:
     room: Room 105, Edward Street Building
   - time: "10:15"
     title: "Digital Research Infrastructure for Language Resources"
-    note: Megan Bushnell (University of Oxford); Paul Rayson (Lancaster University); Martin Wynne (University of Oxford); William Lamb (University of Edinburgh)  
+    note: "Speakers: Megan Bushnell (University of Oxford); Paul Rayson (Lancaster University); Martin Wynne (University of Oxford); William Lamb (University of Edinburgh). <br> Session Chair: Karina Rodriguez Echavarria (University of Brighton)"
     room: Room 105, Edward Street Building
   - time: "11:15"
     title: Coffee/tea
@@ -21,7 +21,7 @@ slots:
     room: Room 103/104, Edward Street Building
   - time: "11:30"
     title: "Digital Research Infrastructures for Arts and Humanities"
-    note: Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London); Prof Karina Rodriguez Echavarria (University of Brighton)
+    note: "Speakers: Dr. Joan Murphy (Trinity College Dublin); Dr. Barbara McGillivray (King's College London); Prof Karina Rodriguez Echavarria (University of Brighton). <br> Session Chair: Megan Bushnell (University of Oxford)"
     room: Room 105, Edward Street Building
   - time: "12:30"
     title: "Keynote: CLARIAH: A View from Other Countries"
@@ -45,7 +45,7 @@ slots:
     room: Room 103/104, Edward Street Building
   - time: "16:00"
     title: "Project Poster and Showcases"
-    note: "Short poster and showcase presentations"
+    note: "Short poster and showcase presentations<br>Session Chair: Dr Myrsini Samaroudi"
     room: Room 105, Edward Street Building
   - time: "17:00 - 18:00"
     title: Close & Reception 
